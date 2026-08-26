@@ -11,7 +11,7 @@
  *
  * Put your deployed Apps Script /exec URL below.
  */
-const APPS_SCRIPT_URL = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbytfAjgTMsimM5VdzlsYqxnVQ4ZybeadBk5vfoxO7ibkkkiWDwHqcQN99sGGm4dOeiuFA/exec';
 
 const $ = id => document.getElementById(id);
 const form = $('certificateForm');
