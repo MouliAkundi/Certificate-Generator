@@ -58,7 +58,7 @@ function applyBootstrap(data) {
 }
 
 function loadBootstrap() {
-  if (APPS_SCRIPT_URL.includes('PASTE_YOUR')) {
+  if (APPS_SCRIPT_URL.includes('https://script.google.com/macros/s/AKfycbytfAjgTMsimM5VdzlsYqxnVQ4ZybeadBk5vfoxO7ibkkkiWDwHqcQN99sGGm4dOeiuFA/exec')) {
     status('Setup required', 'error');
     typeSelect.innerHTML = '<option value="">Apps Script URL required</option>';
     return;
@@ -102,7 +102,7 @@ form.addEventListener('submit', e => {
     return;
   }
 
-  if (APPS_SCRIPT_URL.includes('PASTE_YOUR')) {
+  if (APPS_SCRIPT_URL.includes('https://script.google.com/macros/s/AKfycbytfAjgTMsimM5VdzlsYqxnVQ4ZybeadBk5vfoxO7ibkkkiWDwHqcQN99sGGm4dOeiuFA/exec')) {
     alert('Please enter the deployed Apps Script Web App /exec URL in app.js.');
     return;
   }
