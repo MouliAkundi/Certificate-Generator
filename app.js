@@ -58,7 +58,7 @@ function applyBootstrap(data) {
 
   $('footerCollege').textContent =
     data.collegeTitle ||
-    'Government Degree College, Vizianagaram';
+    'Designed by A.Chandra Mouli, Lecturer in Mathematics, GDC VZM';
 
   if (data.logoLeft) {
     $('logoLeft').src =
