@@ -56,10 +56,6 @@ function applyBootstrap(data) {
   $('commissionerate').textContent =
     data.commissionerateTitle || '';
 
-  $('footerCollege').textContent =
-    data.collegeTitle ||
-    'Designed by A.Chandra Mouli, Lecturer in Mathematics, GDC VZM';
-
   if (data.logoLeft) {
     $('logoLeft').src =
       `data:${data.logoLeft.mime};base64,${data.logoLeft.base64}`;
