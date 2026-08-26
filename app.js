@@ -11,7 +11,7 @@
  */
 
 const APPS_SCRIPT_URL =
-  'https://script.google.com/macros/s/AKfycbytfAjgTMsimM5VdzlsYqxnVQ4ZybeadBk5vfoxO7ibkkkiWDwHqcQN99sGGm4dOeiuFA/exec';
+  'https://script.google.com/macros/s/AKfycbyNgSdtTlHaXIGVvfhA42j4UWDF4bWzYDeQ3bx38vdUPpmwgT7uIX1QNlnTfCRS-GbV/exec';
 
 const $ = id => document.getElementById(id);
 
